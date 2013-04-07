@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GBitmap" Collapsed="true">
+    <Position X="1.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QUAAACAAAoAAJCIAAAIAAABJQAQAwAAAAAAQAAAAAAI=</HashCode>
+      <FileName>gbitmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GGameMap" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAAIgJAAQAIEIAAAAAgSCCAAAAQMCAAAAAAAA=</HashCode>
+      <FileName>gmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GSprite" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAABAAAgAIAAAAAAQAAAAIAABABAAAAAAI=</HashCode>
+      <FileName>gsprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GBonus" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIABBAAAEAEAAAAAACAAAABAAA=</HashCode>
+      <FileName>gsprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GExplode" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAGAEAAAAAACAAAAAIAA=</HashCode>
+      <FileName>gsprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GBorn" Collapsed="true">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="GSprite" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="1.059" />
+        <Point X="6.75" Y="3.596" />
+        <Point X="8.75" Y="3.596" />
+        <Point X="8.75" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAAgAAAAAgAAAAAAAAIACAAAAEAEAAAAAACAAAAAAAA=</HashCode>
+      <FileName>gsprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GMoveableSprite" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQCAAAAAAAAACAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>gsprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GBullet" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAACAAAAAAgA=</HashCode>
+      <FileName>gsprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTank" Collapsed="true">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAgCAAACBAEAAABAAIAIEAAIAgAqAAAEBAAg=</HashCode>
+      <FileName>gsprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPlayerTank" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAIACCAAAAAEAEAABCAAAAEAAAg=</HashCode>
+      <FileName>gsprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GEnemyTank" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIACBAAIAAAABAABABAAAIAAgA=</HashCode>
+      <FileName>gsprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTankGame" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIpFCAQACAACCigWKogEFiEBEAIYDAAAAGAACSgA=</HashCode>
+      <FileName>gtankgame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

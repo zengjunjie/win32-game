@@ -1,0 +1,2 @@
+Couldn't load image res\background.bmp: Couldn't open res\background.bmp
+载入游戏资源失败!
